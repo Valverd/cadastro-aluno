@@ -1,0 +1,57 @@
+.Nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px 0 15px;
+    background-color: #72b2a2;
+    color: #191d29;
+    font-size: 1.2em;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.nav-menu, .nav-logo{
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.nav-exit:hover{
+    color: #191d297e;
+    cursor: pointer;
+}
+
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #72b2a2;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.hide{
+    display: none;
+}
+
+.menu a{
+    color: #191d29;
+    text-decoration: none;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu div:hover{
+    background-color: #90e0cc;
+}
+
+.menu-img{
+
+}

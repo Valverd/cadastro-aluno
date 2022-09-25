@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Login{
+    width: 100vw;
+    height: 100vh;
+    background: url('../../assets/Tela_login.jpg');
+    background-size: cover;
+    display: flex;
+}
+
+.modal{
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    color: #191d29;
+    border-radius: 8px;
+    box-shadow: #72b2a2 5px 5px 5px;
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-link{
+    margin-top: 5px;
+}
+
+.login-link:hover{
+    color: #67a193;
+    cursor: pointer;
+}
+
+
+.loginForm input, button{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: #191d29 1.5px solid;
+    font-size: 1.2em;
+    outline: none;
+}
+
+.loginForm button{
+    background-color: #72b2a2;
+}
+
+.loginForm button:hover{
+    background-color: #67a193;
+}
+
+.loginForm button:active{
+    background-color: #79bdac;
+}

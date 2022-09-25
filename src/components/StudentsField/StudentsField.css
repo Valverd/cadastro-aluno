@@ -1,0 +1,25 @@
+.StudentsField{
+    height: 400px;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #ccc;
+    border: 1px solid #191d29;
+    overflow-y: auto;
+    position: relative;
+    transition: 0.5s;
+}
+
+.table-students{
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.tr-title th{
+    background-color: #191d29;
+    color: #ccc;
+    padding: 5px;
+    position: sticky;
+    top: -1px;
+}
